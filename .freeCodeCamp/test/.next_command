@@ -97,3 +97,33 @@ history -a
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
 psql --username=freecodecamp --dbname=students
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./student_info.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./student_info.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./student_info.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+psql --username=postgres -dane=students
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+psql --username=postgres --dbname=students
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+psql --username=postgres --dbname=students
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+psql --username=freecodecamp --dbanem=students
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+psql --username=freecodecamp --dbaname=students
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+psql --username=freecodecamp --daname=students
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+psql --username=freecodecamp --dbname=students
