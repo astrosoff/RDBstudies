@@ -44,3 +44,12 @@ echo "$($PSQL "
               ")"
 
 echo -e "\nList of courses, in alphabetical order, with only one student enrolled:"
+echo "$($PSQL "
+              SELECT course 
+              FROM students
+              INNER JOIN majors_courses USING(major_id)
+              INNER JOIN courses USING(course_id)
+              GROUP BY course
+              HAVING COUNT(student_id) = 1
+              ORDER BY course
+              ")"
