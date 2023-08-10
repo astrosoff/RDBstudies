@@ -233,3 +233,6 @@ psql --username=freecodecamp --dbanme=students
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
 psql --username=freecodecamp --dbname=students
+./student_info.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
