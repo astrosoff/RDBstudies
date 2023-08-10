@@ -42,3 +42,5 @@ echo "$($PSQL "
               WHERE s.major_id IS NULL OR s.first_name = 'Obie'
               ORDER BY course DESC
               ")"
+
+echo -e "\nList of courses, in alphabetical order, with only one student enrolled:"
